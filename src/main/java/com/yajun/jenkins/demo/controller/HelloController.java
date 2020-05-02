@@ -11,4 +11,9 @@ public class HelloController {
     public Object hello() {
         return "hello jenkins";
     }
+
+    @RequestMapping("/log")
+    public Object log() {
+        return "hello scm";
+    }
 }
